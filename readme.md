@@ -10,7 +10,7 @@ To run the App locally:
 
 This website has the following features:
 
-	1. React framework
+	1. React / Node
 	2. Foundation
 	3. CSS transitions 
 

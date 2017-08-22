@@ -19,7 +19,7 @@ class Home extends Component {
 				 	<div className="cell large-8">
 						<div className="description">
 							<p>Pat and Pete Luboff started Write Songs because of their love of working with songwriters. 
-							The goal of Write Songs is to help you write the best songs you can by sharing what 
+							The goal of Write Songs is to help you compose the best songs you can by sharing what 
 							Pat and Pete have learned over their careers as professional songwriters.
 							</p>
 							<hr />
