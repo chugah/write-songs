@@ -10,12 +10,7 @@ input[type=search] {
   box-shadow: none;
 }
 
-.add-border {
-  border-bottom: 0.1rem solid #FF4500 !important;
-  border-top: 0.1rem solid #FF4500 !important;
-  margin-bottom: 2rem;
-  padding: 0.7rem 0 0.7rem 0;
-}
+
 
 /* ==================================== 
 Navigation Component
@@ -47,6 +42,13 @@ a:hover {
 	background-color: #FFF !important;
 }
 
+.nav-border {
+  border-bottom: 0.1rem solid #FF4500 !important;
+  border-top: 0.1rem solid #FF4500 !important;
+  margin-bottom: 2rem;
+  padding: 0.7rem 0 0.7rem 0;
+}
+
 /* ==================================== 
 Home Component
 ==================================== */
@@ -57,7 +59,7 @@ Home Component
 }
 
 .description, .welcome-img {
-  font-family: Papyrus, Cursive;
+  font-family: 'Montserrat', sans-serif;
   margin: 1rem 0 1rem 0;
   animation: fadein 4s;
   -moz-animation: fadein 4s; 
@@ -114,29 +116,13 @@ Brand Component
 About Component
 ==================================== */
 
-.about-p {
-  margin: 2rem 0 2rem 0;
-}
-.content > div {
-    text-align: justify;
-    margin: 2rem 0 2rem 0;
-    width: 20rem;
-    display: inline-block;
-    padding:10px;
-    transition-duration: 2s;
-    transition-property: background-color, color;
-    transition-delay: 1s;
+.img-spacer {
+  margin: 0 1.5rem 0 1.5rem;
 }
 
-
-#block-1:hover {
-    background-color: #dfdfdf;
-    color: #00558b;
-}
-
-#block-2:hover {
-    background-color: #dfdfdf;
-    color: #F04124;
+.para-border {
+  border-bottom: 0.1rem solid #FF4500 !important;
+  padding-bottom: 1rem;
 }
 
 /* ==================================== 

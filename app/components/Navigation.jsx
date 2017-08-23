@@ -6,7 +6,7 @@ class Navigation extends Component {
 	render() {
 		return (
 			<div className="grid-x grid-padding-x align-center">
-				<div className="top-bar add-border">
+				<div className="top-bar nav-border">
 					<ul className="menu">
 						<li><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink></li>
 						<li><Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About Us</Link></li>
